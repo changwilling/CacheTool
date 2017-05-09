@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.changwilling.cache_android.view.ExpireManageActivity">
+    <TextView
+        android:id="@+id/tv_for_data_expire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="数据过期"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/holo_red_dark"/>
+    <TextView
+        android:id="@+id/tv_data_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="实际数据"/>
+    <Button
+        android:id="@+id/bt_refresh_data_expire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="检查数据是否过期"/>
+    <Button
+        android:id="@+id/bt_get_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="获取最新数据"/>
+</LinearLayout>
